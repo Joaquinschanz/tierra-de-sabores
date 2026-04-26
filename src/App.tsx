@@ -21,6 +21,7 @@ function App() {
 
   return (
     <div className={`app ${activeId ? "modal-open" : ""}`}>
+      <div className="page-opening-curtain"></div>
       <div className="overlay-bg"></div>
 
       <Header />

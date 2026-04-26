@@ -549,6 +549,34 @@ body {
   transform: translateY(-2px);
 }
 
+.page-opening-curtain {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  pointer-events: none;
+
+  background-image: url("/mantel.png");
+  background-size: conver;
+  background-position: center;
+  background-repeat: repeat;
+
+  animation: curtainFade 2.5s ease forwards;
+}
+
+@keyframes curtainFade {
+  0% {
+    opacity: 1;
+  }
+
+  70% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
 @keyframes popup {
   from {
     opacity: 0;
