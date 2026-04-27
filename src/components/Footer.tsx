@@ -13,7 +13,7 @@ function Footer() {
           </h2>
 
           <p className="footer-description">
-            Consultanos por pedidos, eventos o cualquier consulta. Te respondemos a la brevedad.
+            Consultanos por pedidos, eventos o cualquier otra duda. Te respondemos a la brevedad.
           </p>
 
           <div className="footer-contact-list">
