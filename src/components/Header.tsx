@@ -14,7 +14,6 @@ function Header() {
 
         <div className="hero-nav-links">
           <a href="#picadas">Picadas</a>
-          <a href="#otros">Otros</a>
           <a href="#contacto">Contacto</a>
         </div>
 

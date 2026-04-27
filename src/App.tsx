@@ -37,6 +37,7 @@ function App() {
         />
       </main>
       
+      {/*
       <main id="otros" className="main-content">
         <ProductSection
           title="Otros..."
@@ -46,7 +47,7 @@ function App() {
           onToggleShowAll={() => setShowAllOtros((prev) => !prev)}
           onProductClick={handleCardClick}
         />
-      </main>
+      </main> */}
 
       {activeProduct && (
         <ProductModal product={activeProduct} onClose={() => setActiveId(null)} />
