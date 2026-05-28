@@ -25,8 +25,7 @@ function App() {
       <div className="overlay-bg"></div>
 
       <Header />
-
-      <main id="picadas" className="main-content">
+      <main id="picadas" className="main-content with-banner">
         <ProductSection
           title="Picadas Tradicionales..."
           products={tradicionales}
