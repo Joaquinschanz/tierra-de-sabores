@@ -35,7 +35,7 @@ function ProductSection({
         ))}
       </div>
 
-      {products.length > 5 && (
+      {products.length > 4 && (
         <div className="section-action">
           <button type="button" className="toggle-button" onClick={onToggleShowAll}>
             {showAll ? "-" : "+"}

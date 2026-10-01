@@ -51,7 +51,7 @@ function ProductModal({ product, onClose }: ProductModalProps) {
           <div className="premium-order-buttons">
           <a
             href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
-              `Buenas! Quiero pedir una picada ${product.name}`
+              `Buenas! Quiero pedir: ${product.name}`
             )}`}
             target="_blank"
             rel="noopener noreferrer"

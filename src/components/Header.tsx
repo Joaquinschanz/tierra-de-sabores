@@ -1,4 +1,5 @@
 import "./Header.css";
+import { WHATSAPP_NUMBER } from "../data/contact";
 
 function Header() {
   return (
@@ -19,7 +20,7 @@ function Header() {
         </div>
 
         <a
-          href="https://wa.me/543492592648"
+          href={`https://wa.me/${WHATSAPP_NUMBER}`}
           target="_blank"
           rel="noopener noreferrer"
           className="hero-cta"

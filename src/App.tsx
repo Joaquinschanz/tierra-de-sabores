@@ -25,26 +25,28 @@ function App() {
       <div className="overlay-bg"></div>
 
       <Header />
-      <main id="picadas" className="main-content with-banner">
-        <ProductSection
-          title="Picadas Tradicionales..."
-          products={tradicionales}
-          activeId={activeId}
-          showAll={showAllTradicionales}
-          onToggleShowAll={() => setShowAllTradicionales((prev) => !prev)}
-          onProductClick={handleCardClick}
-        />
-      </main>
-      
-      <main id="otros" className="main-content">
-        <ProductSection
-          title="Otros..."
-          products={otros}
-          activeId={activeId}
-          showAll={showAllOtros}
-          onToggleShowAll={() => setShowAllOtros((prev) => !prev)}
-          onProductClick={handleCardClick}
-        />
+      <main>
+        <div id="picadas" className="main-content with-banner">
+          <ProductSection
+            title="Picadas Tradicionales..."
+            products={tradicionales}
+            activeId={activeId}
+            showAll={showAllTradicionales}
+            onToggleShowAll={() => setShowAllTradicionales((prev) => !prev)}
+            onProductClick={handleCardClick}
+          />
+        </div>
+
+        <div id="otros" className="main-content">
+          <ProductSection
+            title="Otros..."
+            products={otros}
+            activeId={activeId}
+            showAll={showAllOtros}
+            onToggleShowAll={() => setShowAllOtros((prev) => !prev)}
+            onProductClick={handleCardClick}
+          />
+        </div>
       </main>
 
       {activeProduct && (
