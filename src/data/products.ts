@@ -4,7 +4,7 @@ export const products: Product[] = [
   {
     id: 1,
     name: "Comen 2 | Pican 3",
-    price: "$17.000",
+    price: "$18.000",
     description: [
       { ingredient: "Aceitunas" },
       { ingredient: "Bondiola" },
@@ -22,7 +22,7 @@ export const products: Product[] = [
   {
     id: 2,
     name: "Comen 2 | Pican 4",
-    price: "$22.000",
+    price: "$23.000",
     description: [
       { ingredient: "Aceitunas" },
       { ingredient: "Bondiola" },
@@ -42,7 +42,7 @@ export const products: Product[] = [
   {
     id: 3,
     name: "Comen 3 | Pican 5",
-    price: "$23.000",
+    price: "$24.000",
     description: [
       { ingredient: "Aceitunas" },
       { ingredient: "Bondiola" },
@@ -60,7 +60,7 @@ export const products: Product[] = [
   {
     id: 4,
     name: "Comen 4 | Pican 6",
-    price: "$34.000",
+    price: "$36.000",
     description: [
       { ingredient: "Aceitunas" },
       { ingredient: "Bondiola" },
@@ -79,7 +79,7 @@ export const products: Product[] = [
   {
     id: 5,
     name: "Comen 5 | Pican 7/8",
-    price: "$36.000",
+    price: "$38.000",
     description: [
       { ingredient: "Aceitunas" },
       { ingredient: "Bondiola" },
@@ -97,7 +97,7 @@ export const products: Product[] = [
   {
     id: 6,
     name: "Comen 6 | Pican 9",
-    price: "$43.000",
+    price: "$47.000",
     description: [
       { ingredient: "Aceitunas" },
       { ingredient: "Bondiola" },
@@ -115,7 +115,7 @@ export const products: Product[] = [
   {
     id: 7,
     name: "Comen 7 | Pican 10",
-    price: "$48.000",
+    price: "$52.000",
     description: [
       { ingredient: "Aceitunas" },
       { ingredient: "Bondiola" },
@@ -136,7 +136,7 @@ export const products: Product[] = [
   {
     id: 8,
     name: "Comen 8 | Pican 14",
-    price: "$62.000",
+    price: "$68.000",
     description: [
       { ingredient: "Aceitunas" },
       { ingredient: "Bondiola" },
@@ -158,7 +158,7 @@ export const products: Product[] = [
   {
     id: 9,
     name: "Comen 12 | Pican 15",
-    price: "$69.000",
+    price: "$73.000",
     description: [
       { ingredient: "Aceitunas" },
       { ingredient: "Bondiola" },
@@ -176,7 +176,7 @@ export const products: Product[] = [
   {
     id: 10,
     name: "Comen 11 | Pican 19",
-    price: "$89.000",
+    price: "$98.000",
     description: [
       { ingredient: "Aceitunas" },
       { ingredient: "Bondiola" },
